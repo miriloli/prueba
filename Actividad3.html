@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>MIRILOLI'S Official Website</title>
+        
+        <link rel="stylesheet" href="estilos.css" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Limelight&display=swap" rel="stylesheet">
+
+        <script src="main.js" type="text/javascript"></script>
+
+  </head>
+
+  <body>
+
+    <div id="container">
+        <header>
+            <div class="cabecera">
+            <p id="logo">MIRILOLI'S<p>
+            <p id="frase"> ●BAKERY & COFFEE●</p>
+            </div>
+        </header>
+         
+
+    <div class="clearfix"></div>
+   
+             
+         <form id="formulario" action="mailto:tarea2@foc.es" method="post">
+            <p id="REGISTRO">
+            REGISTRO
+            </p>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            
+                <label id="nombre2" for="nombre2">Nombre*:</label>
+                <input id="nombre22" class="válido" type="text"/>
+                <button type="button"  onclick="validar()" id="validar1">validar</button>
+                <br/>
+                
+                <label id="apellidos2" for="apellidos">Apellidos*:</label>
+                <input id="apellidos22"  class="válido" type="text"/>
+                <button type="button" onclick="validar2()" id="validar1">validar</button>
+                <br/>
+
+                <label id="contraseña" for="contraseña">Contraseña* (Al menos 5 caracteres, 1 May, 1 Min y 1 Número):</label>
+                <input id="contraseña2" class="válido" type="text"/>
+                <button type="button" onclick="validar3()" id="validar1">validar</button>
+                <br/>
+                
+                <label id="nickDeUsuario" for="Nombre de usuario">Nick de usuario* (3 o más caracteres):</label>
+                <input id="nickDeUsuario2"  class="válido" type="text"/>
+                <button type="button" onclick="validar4()" id="validar1">validar</button>
+                <br/>
+                
+                <label id="email2" for="email2">Email* (p.ej:miriam3gga@gmail.com):</label>
+                <input id="email22"  class="válido" type="text"/>
+                <button type="button" onclick="validar5()" id="validar1" >validar</button>
+                <br/>
+                <br/>
+                <br/>
+                <p id="mensajeError"></p>
+                <p id="mensajeError2"></p>
+                <p id="mensajeError3"></p>
+                <p id="mensajeError4"></p>
+                <p id="mensajeError5"></p>
+                <br/>
+                <br/>
+
+                <button id="controlTotal" type="button"  onclick="total();" > Control total + envio </button>
+                <button id="limpiar2" type="button" onclick="limpiarCampos();" >Limpiar los campos</button>
+
+        </form>
+        
+        
+
+        <div class="clearfix"></div>
+
+        <footer>
+            Miriam Gallardo González-Amor 53772609N &copy;2023
+        </footer>
+        
+    </div>
+
+    
+  </body>
